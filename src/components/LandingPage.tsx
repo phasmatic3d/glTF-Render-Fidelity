@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Box, Chip, Typography, Grid2 as Grid, useMediaQuery } from "@mui/material";
+import { Box, Chip, Typography, Grid, useMediaQuery } from "@mui/material";
 import Search from "@/components/Search";
 import Fuse from 'fuse.js'
 import ModelCard from "@/components/ModelCard";

@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import { Box, Chip, Typography, Grid2 as Grid, Checkbox } from "@mui/material";
+import { Box, Typography, Checkbox } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';

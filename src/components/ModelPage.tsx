@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Typography, Button, Box, Grid2 as Grid, IconButton, Snackbar, Link } from "@mui/material";
+import { Typography, Button, Box, Grid, IconButton, Snackbar, Link } from "@mui/material";
 import { useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import ModelRenderCard from "@/components/ModelRenderCard"

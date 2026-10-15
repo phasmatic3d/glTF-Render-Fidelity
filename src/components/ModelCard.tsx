@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import NextLink from 'next/link';
 import Link from '@mui/material/Link';
-import { Box, Chip, Typography, Grid2 as Grid } from "@mui/material";
+import { Box, Chip, Typography, Grid } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import { basePath } from '@/lib/paths';
 

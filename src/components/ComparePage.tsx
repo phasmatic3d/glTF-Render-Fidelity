@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Typography, Box, Grid2 as Grid, ButtonGroup, Button, Popper, Grow, Paper, ClickAwayListener, MenuItem , MenuList, IconButton, Snackbar, Link } from "@mui/material";
+import { Typography, Box, Grid, ButtonGroup, Button, Popper, Grow, Paper, ClickAwayListener, MenuItem , MenuList, IconButton, Snackbar, Link } from "@mui/material";
 import ModelRenderCard from "@/components/ModelRenderCard"
 import ImageComparisonSlider from "@/components/ImageComparison/ImageComparisonSlider";
 import SideBySideComparison from './ImageComparison/SideBySideComparison'

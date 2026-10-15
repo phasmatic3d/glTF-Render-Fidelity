@@ -6,7 +6,7 @@ import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import theme from '../theme'
-import { Typography, Box, Container, Grid2 as Grid } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import CssBaseline from '@mui/material/CssBaseline';
 import "./globals.css";
 

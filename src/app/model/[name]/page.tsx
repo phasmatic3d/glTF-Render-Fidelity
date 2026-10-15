@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button, Typography, Box, Grid2 as Grid } from "@mui/material";
 import type { Metadata, ResolvingMetadata  } from 'next'
 import ModelPage, { RenderView } from "@/components/ModelPage";
 import models from "@/data/model-index.Fidelity.json"

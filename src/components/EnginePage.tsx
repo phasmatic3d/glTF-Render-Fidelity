@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Typography, Button, Box, Grid2 as Grid } from "@mui/material";
+import { Typography, Box, Grid } from "@mui/material";
 import { useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import styles from "./ModelPage.module.css";
