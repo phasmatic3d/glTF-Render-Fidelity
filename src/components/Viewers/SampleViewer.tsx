@@ -307,8 +307,8 @@ const SampleViewer = React.forwardRef<ViewerRef, SampleViewerProps>(({ src, styl
       const out = mat4.create();
 
       // Invert the matrix
-      const cameraWorldMatrix = mat4.invert(mat4.create(), view);
-      const cameraPosition = vec3.transformMat4(vec3.create(), [0, 0, 0], cameraWorldMatrix);
+      //const cameraWorldMatrix = mat4.invert(mat4.create(), view);
+      //const cameraPosition = cameraWorldMatrix && vec3.transformMat4(vec3.create(), [0, 0, 0], cameraWorldMatrix);
       //rendererRef.current.currentCameraPosition = cameraPosition;
     }, [projection, view, fov, aspect]);
 
