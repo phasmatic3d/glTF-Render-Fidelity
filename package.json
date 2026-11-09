@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "preinstall": "cd ./glTF-Sample-Renderer && npm ci && npm run build",
-    "postinstall": "cp ./glTF-Sample-Renderer/dist/libs/*.wasm ./glTF-Sample-Renderer/dist/ && cp ./glTF-Sample-Renderer/dist/libs/* ./public/libs/",
+    "postinstall": "node scripts/copy-renderer.mjs",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
