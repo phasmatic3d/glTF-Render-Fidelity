@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preinstall": "cd ./glTF-Sample-Renderer && npm ci && npm run build",
+    "preinstall": "cd ./glTF-Sample-Renderer && npm install && npm run build",
     "postinstall": "node scripts/copy-renderer.mjs",
     "dev": "next dev --turbopack",
     "build": "next build",
