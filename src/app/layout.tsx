@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans, Chivo, Poppins } from "next/font/google";
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import Header from '../components/Header'
